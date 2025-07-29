@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Tracker Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Fitness Tracker</h1>
+    <p>Monitor your daily progress and stay healthy!</p>
+  </header>
+
+  <main class="dashboard">
+    <div class="card">
+      <h2>Steps Today</h2>
+      <p id="steps">0</p>
+      <div class="progress">
+        <div class="bar" id="stepsBar"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Calories Burned</h2>
+      <p id="calories">0 kcal</p>
+      <div class="progress">
+        <div class="bar" id="caloriesBar"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Workout Time</h2>
+      <p id="workout">0 mins</p>
+      <div class="progress">
+        <div class="bar" id="workoutBar"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fitness Tracker App</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
